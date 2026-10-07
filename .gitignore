@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+
+# Dados e Modelos pesados
+dados/*.csv
+dados/*.parquet
+dados/*.xlsx
+modelos/*.pkl
+modelos/*.h5
+modelos/*.joblib
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
